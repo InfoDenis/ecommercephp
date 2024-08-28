@@ -6,8 +6,18 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit8a35c1991dcb16c9b9de696b9667b6f4
 {
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/infodenis/php-classes/src',
+    public static $prefixLengthsPsr4 = array (
+        'I' => 
+        array (
+            'InfoDenis\\' => 10,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'InfoDenis\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/infodenis/php-classes/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -42,7 +52,8 @@ class ComposerStaticInit8a35c1991dcb16c9b9de696b9667b6f4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->fallbackDirsPsr4 = ComposerStaticInit8a35c1991dcb16c9b9de696b9667b6f4::$fallbackDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8a35c1991dcb16c9b9de696b9667b6f4::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8a35c1991dcb16c9b9de696b9667b6f4::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit8a35c1991dcb16c9b9de696b9667b6f4::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit8a35c1991dcb16c9b9de696b9667b6f4::$classMap;
 
