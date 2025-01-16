@@ -3,7 +3,7 @@
         'name' => 'infodenis/ecommercephp',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '40b541c30b19f6ab38e7620e3aa77c049420cc60',
+        'reference' => 'ccadad08aa93e49050489250c72f1785cb3809f6',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'infodenis/ecommercephp' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '40b541c30b19f6ab38e7620e3aa77c049420cc60',
+            'reference' => 'ccadad08aa93e49050489250c72f1785cb3809f6',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
