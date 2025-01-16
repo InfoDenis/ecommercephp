@@ -16,7 +16,7 @@ class Model {
     {
 
       case "get":
-        return $this->values["field"];
+        return $this->values[$field];
         break;
 
       case "set":
